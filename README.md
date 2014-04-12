@@ -10,10 +10,10 @@ It is composed of a website and a mobile app targeted mainly on Android devices,
 ## Core technologies ##
 
 This is our toolset:
-* [Phonegap]
-* [NodeJS]
-* [AngularJS]
-* [Twitter Bootstrap]
+* [Phonegap](http://phonegap.com)
+* [Node.js](nodejs.org)
+* [AngularJS](angularjs.org)
+* [Bootstrap](getbootstrap.com)
 
 We've decided not yet to use workflow helpers like yeoman, grunt or bower and stylesheet preprocessors like SASS or LESS in order to reduce dependencies.
 We strongly recommend using the [Brackets](brackets.io) editor, though, because of its built-in live preview and other Web editing specific features.
