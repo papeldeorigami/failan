@@ -7,21 +7,33 @@ This is a simple failure analysis system for industrial equipments.
 
 ## Development environment setup ##
 
-Install nodejs
+1) Install [nodejs](http://nodejs.org)
 
-Install deployd
-```npm install deployd```
 
-We've adopted the following yeoman generators:
+2) Install yeoman generators and deployd:
 
-```generator-angular```
+```
+npm install -g generator-angular
+npm install -g deployd
+```
 
-and bower packages:
+## Execution ##
 
-* [Phonegap](http://phonegap.com)
-* [AngularJS](angularjs.org)
-* [Bootstrap](getbootstrap.com)
+To start the backend:
+```
+cd api
+dpd -d
+```
 
-We've decided not yet to use workflow helpers like yeoman, grunt or bower and stylesheet preprocessors like SASS or LESS in order to reduce dependencies.  
-We strongly recommend using the [Brackets](brackets.io) editor, though, because of its built-in live preview and other Web editing specific features.  
-For storing data, we are still investigating some ["no-backend"](http://nobackend.org/solutions.html) technologies.  
+To start the frontend:
+```
+cd webapp
+grunt serve
+```
+
+## Implementation details ##
+
+* The frontend is implemented with AngularJS following the yeoman generator standards
+* The backend is implemented with Deployd for the sake of simplicity and can be easily replaced with other REST implementations
+* Uses [Restangular](https://github.com/mgonto/restangular) to connect to the deployd REST-style API
+
