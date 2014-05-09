@@ -1,0 +1,21 @@
+<div id="select-case-panel" class="panel panel-default">
+  <div class="panel-heading">Selecionar caso a ser analisado</div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nr. QC/BWS</th>
+        <th>Produto</th>
+        <th>Cliente</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="case in cases">
+        <td><a href ng-click="changeView('analysis-list')">{{case.casenumber}}</a></td>
+        <td>{{case.product}}</td>
+        <td>{{case.customer}}</td>
+        <td>{{case.status}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

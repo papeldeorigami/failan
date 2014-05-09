@@ -1,17 +1,24 @@
-# Fraquinhas #
-_(spelled frackin'ahs)_
+# Failan #
 
 ## Introduction ##
 
 This is **EXPERIMENTAL** code, not working yet!  
-This is a very simple [FRACAS](http://en.wikipedia.org/wiki/Failure_reporting,_analysis,_and_corrective_action_system) system developed with the purpose of extending the team's knowledge on modern web development techniques.  
-It is composed of a website and a mobile app targeted mainly on Android devices, although easily extensible to other devices.  
+This is a simple failure analysis system for industrial equipments.
 
-## Core technologies ##
+## Development environment setup ##
 
-This is our toolset:  
+Install nodejs
+
+Install deployd
+```npm install deployd```
+
+We've adopted the following yeoman generators:
+
+```generator-angular```
+
+and bower packages:
+
 * [Phonegap](http://phonegap.com)
-* [Node.js](nodejs.org)
 * [AngularJS](angularjs.org)
 * [Bootstrap](getbootstrap.com)
 

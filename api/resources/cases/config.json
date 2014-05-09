@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"casenumber": {
+			"name": "casenumber",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "casenumber",
+			"order": 0
+		},
+		"product": {
+			"name": "product",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "product",
+			"order": 1
+		},
+		"customer": {
+			"name": "customer",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "customer",
+			"order": 2
+		},
+		"status": {
+			"name": "status",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "status",
+			"order": 3
+		}
+	}
+}
