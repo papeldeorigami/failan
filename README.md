@@ -15,6 +15,9 @@ This is a simple failure analysis system for industrial equipments.
 ```
 npm install -g generator-angular
 npm install -g deployd
+cd webapp
+npm install
+bower install
 ```
 
 ## Execution ##
