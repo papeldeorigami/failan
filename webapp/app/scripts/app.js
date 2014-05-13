@@ -10,9 +10,9 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/select-case', {templateUrl: 'views/select-case.html', controller: 'MainCtrl'})
-      .when('/analysis-list', {templateUrl: 'views/analysis-list.html', controller: 'MainCtrl'})
+      .when('/cases', {templateUrl: 'views/case-list.html', controller: 'CaseListCtrl'})
+      .when('/cases/:caseId', {templateUrl: 'views/case-detail.html', controller: 'CaseDetailCtrl'})
       .otherwise({
-        redirectTo: '/analysis-list'
+        redirectTo: '/cases'
       });
   });
