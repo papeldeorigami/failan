@@ -36,7 +36,7 @@ grunt serve
 
 ## Implementation details ##
 
-* The frontend is implemented with AngularJS following the yeoman generator standards
-* The backend is implemented with Deployd for the sake of simplicity and can be easily replaced with other REST implementations
+* The frontend is implemented with yeoman-angular ([AngularJS](https://angularjs.org/))
+* The backend is implemented with [Deployd](http://deployd.com/) and can be easily replaced with other REST implementations
 * Uses [Restangular](https://github.com/mgonto/restangular) to connect to the deployd REST-style API
 
